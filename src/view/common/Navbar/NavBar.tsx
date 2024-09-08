@@ -6,12 +6,7 @@ import shoppingCart from '../../../images/shopping-cart.png';
 
 function NavBar() {
     return (
-        // <div className= "p-3 bg-blue-400 flex">
-        //     <h1 className="text-2xl text-amber-50">PawMart fluffy shop</h1>
-        //
-        // </div>
-
-        <div className="p-4 bg-zinc-600 row flex items-center justify-between">
+        <div className="p-3 bg-zinc-600 row flex items-center justify-between">
             <div className="flex items-center">
                 <img className="h-5 w-5 ml-1 mr-1" src={paw} alt=""/>
                 <h1 className="text-1x1 text-primary font-semibold font-sans">Pet Shop</h1>
